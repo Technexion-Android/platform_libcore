@@ -382,7 +382,6 @@ public final class MimeUtils {
         add("video/x-flv", "f4v");
         add("video/x-matroska", "mkv");
         add("video/x-matroska", "webm");
-        applyOverrides();
     }
 
     private static void add(String mimeType, String extension) {
